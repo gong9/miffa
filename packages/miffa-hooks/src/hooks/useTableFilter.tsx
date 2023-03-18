@@ -75,7 +75,7 @@ const useTableFilter = <T extends string | number | undefined>(
                             handleressEnterEvents<T>(e.target.value, config)
                         }
                         onChange={(e: any) => {
-                            // number 仅是返回数字字符串
+                            // number: just return number string
                             if (
                                 (config as InputConfig)?.type === 'number' &&
                                 e.target.value &&
