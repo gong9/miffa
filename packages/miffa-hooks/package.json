@@ -1,0 +1,30 @@
+{
+  "name": "miffa-hooks",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "readme.md",
+    "package.json"
+  ],
+  "scripts": {
+    "dev": "father dev",
+    "build": "father build",
+    "build:deps": "father prebundle",
+    "prepublishOnly": "father doctor && npm run build",
+    "test": "jest --maxWorkers 2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "react": "^18.2.0"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.0.1",
+    "ahooks": "^3.7.5",
+    "antd": "^5.3.1"
+  }
+}
