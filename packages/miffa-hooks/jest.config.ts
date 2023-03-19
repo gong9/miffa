@@ -2,7 +2,7 @@
 import { Config, createConfig } from '@umijs/test';
 
 export default {
-  displayName: 'demo',
+  displayName: 'miffa-hooks',
   ...createConfig(),
   collectCoverageFrom: ['./**/*.{ts,js,tsx,jsx}'],
   moduleDirectories: ['node_modules', '../../node_modules'],
